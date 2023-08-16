@@ -63,6 +63,31 @@
   font-size: 64px;
 }
 
+.project-hero {
+  padding: 50px 20px;
+}
+
+.project-heading {
+  font-family: var(--heading-font-family);
+  font-size: 72px;
+}
+
+.project-paragraph {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  color: #46458c;
+}
+
+.project-title {
+  font-family: var(--heading-font-family);
+  font-size: 46px;
+}
+
+.project-description {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
 @media (max-width: 900px) {
   .hero .homepage-intro {
     font-size: 26px;
@@ -85,5 +110,20 @@
   }
   .certificate-heading {
     font-size: 40px;
+  }
+
+  .project-hero .project-heading {
+    font-size: 60px;
+  }
+  .project-hero .project-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .project-title {
+    font-size: 40px;
+  }
+  .project-description {
+    font-size: 20px;
+    line-height: 1.5;
   }
 }

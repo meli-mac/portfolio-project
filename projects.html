@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me | Melissa Castro</title>
+    <title>My Projects | Melissa Castro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,13 +53,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >About <span class="sr-only">(current)</span></a
-            >
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">My Projects</a>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html"
+              >My Projects <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Resume</a>
@@ -70,63 +70,64 @@
         </ul>
       </div>
     </nav>
-    <div class="hero">
-      <p class="homepage-intro">Hello 🙋🏽‍♀️, I am</p>
-      <h1>Melissa Castro</h1>
-      <h2>Front-end developer</h2>
-      <p class="mb-4">Based in Hyattsville, MD</p>
+    <div class="project-hero">
+      <h1 class="text-center mt-5 mb-4 project-heading">🔧 My Projects</h1>
+      <p class="text-center project-paragraph">
+        Take a look at some projects I have completed (including this webpage).
+      </p>
       <div>
-        <a href="#" class="btn btn-branding">Contact Me</a>
-      </div>
-    </div>
-    <p class="text-center m-5 text-muted homepage-main-paragraph">
-      Hi! My name is Melissa. I'm currently a student at Prince George's
-      Community College. I'm studying to earn my A.A.S in Computer Engineering.
-      I started my coding journey in August 2022 when I took my first web
-      development class at PGCC. I immediately took an interest in coding. I
-      felt like school alone wasn't going to teach me everything I wanted to
-      learn at the pace I wanted to learn at. That's when I decided to join
-      SheCodes, an online coding workshop for women. I learned new skills and
-      applied those skills in the projects I have built (you can check them out
-      under the 'My Projects' tab). I've gained great knowledge and to prove
-      that, I have listed all my certifications below.
-    </p>
-    <p class="text-center text-muted homepage-second-paragraph">
-      Let's connect and explore how we can create something remarkable together.
-    </p>
-    <h2 class="text-center mt-5 mb-5 certificate-heading">Certificates</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-6 mb-4">
-          <img
-            src="images/SheCodes Plus.png"
-            class="img-fluid img-thumbnail"
-            alt="SheCodes Plus Certificate"
-          />
-        </div>
-        <div class="col-6">
-          <img
-            src="images/SheCodes Plus Add-on.png"
-            class="img-fluid img-thumbnail"
-            alt="SheCodes Plus Add-On Certificate"
-          />
-        </div>
+        <a href="#" class="btn mt-3 btn-branding">Contact Me</a>
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-6 mb-4">
+      <div class="row mt-5">
+        <div class="col d-none d-md-block">
           <img
-            src="images/SheCodes Basic.png"
-            class="img-fluid img-thumbnail"
-            alt="SheCodes Basic Certificate"
+            src="images/World Clock App.png"
+            alt="World Clock App"
+            class="img-fluid rounded"
           />
         </div>
-        <div class="col-6">
+        <div class="col">
+          <h3 class="text-center mt-5 project-title">World Clock App</h3>
+          <p class="text-center text-muted mt-5 project-description">
+            This simple, yet functional, app will tell you the time in 8 major
+            cities around the world, including your location.
+          </p>
+          <div>
+            <a
+              href="https://world-clock-application617.netlify.app/"
+              target="_blank"
+              class="btn mt-4 btn-branding"
+              >Launch World Clock App</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center mt-5 project-title">Weather App</h3>
+          <p class="text-center text-muted mt-5 project-description">
+            This app will tell you the current weather along with a description
+            and a six-day forecast in over 200,00 cities worldwide, including
+            your location.
+          </p>
+          <div>
+            <a
+              href="https://weather-app-application.netlify.app/"
+              target="_blank"
+              class="btn mt-4 btn-branding"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
           <img
-            src="images/SheCodes Basic Add-on.png"
-            class="img-fluid img-thumbnail"
-            alt="SheCodes Basic Add-On Certificate"
+            src="images/Weather App.png"
+            alt="Weather App"
+            class="img-fluid rounded"
           />
         </div>
       </div>
