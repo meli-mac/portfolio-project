@@ -63,11 +63,11 @@
   font-size: 64px;
 }
 
-.project-hero {
+.content-hero {
   padding: 50px 20px;
 }
 
-.project-heading {
+.content-heading {
   font-family: var(--heading-font-family);
   font-size: 72px;
 }
