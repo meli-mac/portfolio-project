@@ -47,6 +47,16 @@
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  background: white;
+  color: var(--branding-color);
+}
+
+.btn-hover:hover {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+}
+
 .homepage-main-paragraph {
   font-family: var(--default-font-family);
   line-height: 2;
@@ -88,6 +98,18 @@
   font-size: 18px;
 }
 
+.content {
+  margin: 30px;
+}
+
+.contact-content {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
 @media (max-width: 900px) {
   .hero .homepage-intro {
     font-size: 26px;
@@ -125,5 +147,12 @@
   .project-description {
     font-size: 20px;
     line-height: 1.5;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  .content-heading {
+    font-size: 45px;
   }
 }
