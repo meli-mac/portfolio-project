@@ -5,6 +5,43 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  margin-left: 15px;
+  color: #272142;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+.nav-logo {
+  font-size: 30px;
+  font-family: var(--default-font-family);
+}
+
+.nav-links {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -50,11 +87,13 @@
 .btn-branding:hover {
   background: white;
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .btn-hover:hover {
   background: var(--secondary-color);
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .homepage-main-paragraph {
@@ -115,6 +154,9 @@
   font-size: 18px;
 }
 @media (max-width: 900px) {
+  nav ul {
+    padding-left: 55px;
+  }
   .hero .homepage-intro {
     font-size: 26px;
   }
