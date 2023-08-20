@@ -44,7 +44,7 @@ ul .nav-links {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero .homepage-intro {
@@ -115,7 +115,7 @@ ul .nav-links {
   padding: 50px 20px;
 }
 
-.content-hero .content-heading {
+.content-heading {
   font-family: var(--heading-font-family);
   font-size: 72px;
 }
@@ -141,7 +141,8 @@ ul .nav-links {
 }
 
 .contact-hero {
-  padding: 100px;
+  padding: 4px;
+  margin: 50px;
 }
 
 .content {
@@ -204,10 +205,15 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+footer p {
+  font-family: var(--default-font-family);
+}
+
 @media (max-width: 900px) {
   nav ul {
-    padding-left: 55px;
+    padding-left: 40px;
   }
+
   .hero .homepage-intro {
     font-size: 26px;
   }

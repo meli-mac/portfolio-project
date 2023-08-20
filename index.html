@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Melissa Castro is a professionally trained front-end developer."
+    />
     <title>About Me | Melissa Castro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,24 +44,38 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/Logo.png" alt="Logo" class="logo d-none d-md-block" />
-        <img
-          src="images/Logo Small.png"
-          alt="Logo small"
-          class="logo d-block d-md-none"
-        />
+        <a href="index.html" title="Homepage">
+          <img
+            src="images/Logo.png"
+            alt="Melissa's Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/Logo Small.png"
+            alt="Melissa's Logo (small)"
+            class="logo d-block d-md-none"
+          />
+        </a>
         <ul>
           <li class="active">
-            <a href="index.html" class="nav-links">About</a>
+            <a href="index.html" title="About Melissa" class="nav-links"
+              >About</a
+            >
           </li>
           <li>
-            <a href="projects.html" class="nav-links">Projects</a>
+            <a href="projects.html" title="Melissa's Projects" class="nav-links"
+              >Projects</a
+            >
           </li>
           <li>
-            <a href="resume.html" class="nav-links">Resume</a>
+            <a href="resume.html" title="Melissa's Resume" class="nav-links"
+              >Resume</a
+            >
           </li>
           <li>
-            <a href="contact.html" class="nav-links">Contact</a>
+            <a href="contact.html" title="Contact Melissa" class="nav-links"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
@@ -68,7 +86,11 @@
       <h2>Front-end developer</h2>
       <p class="mb-4">Based in Hyattsville, MD</p>
       <div>
-        <a href="contact.html" target="_blank" class="btn btn-branding"
+        <a
+          href="contact.html"
+          target="_blank"
+          title="Contact Melissa"
+          class="btn btn-branding"
           >Contact Me</a
         >
       </div>
@@ -126,7 +148,10 @@
       </div>
       <footer>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:melissamachado015@gmail.com" class="email-link"
+          <a
+            href="mailto:melissamachado015@gmail.com"
+            title="Melissa's email"
+            class="email-link"
             >melissamachado015@gmail.com</a
           >
         </div>
@@ -134,12 +159,25 @@
           <a
             href="https://www.linkedin.com/in/melissa-c-4a566718b/"
             target="_blank"
+            title="Melissa's LinkedIn profile"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/meli-mac" target="_blank"
+          <a
+            href="https://github.com/meli-mac"
+            target="_blank"
+            title="Melissa's GitHub profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center text-muted mt-5">
+          <a
+            href="https://github.com/meli-mac/portfolio-project"
+            target="_blank"
+            title="Melissa's GitHub 'Portfolio Project' Repository"
+            >Open-source code</a
+          >
+          by Melissa Castro
+        </p>
       </footer>
     </div>
   </body>
