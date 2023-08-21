@@ -258,4 +258,7 @@ footer p {
   .content-heading {
     font-size: 45px;
   }
+  footer .email-link {
+    font-size: 20px;
+  }
 }
