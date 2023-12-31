@@ -111,6 +111,12 @@ ul .nav-links {
   font-size: 64px;
 }
 
+.certificate-subheading {
+  margin-left: 165px;
+  font-family: var(--heading-font-family);
+  margin-bottom: 15px;
+}
+
 .content-hero {
   padding: 50px 20px;
 }
@@ -236,6 +242,11 @@ footer p {
   }
   .certificate-heading {
     font-size: 40px;
+  }
+
+  .certificate-subheading {
+    margin-left: 12px;
+    font-size: 25px;
   }
 
   .project-hero .project-heading {
